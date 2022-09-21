@@ -1,0 +1,33 @@
+[11:13 am, 20/09/2022] Akhil Sse: }
+[1:47 pm, 20/09/2022] Akhil Sse: #include<stdio.h>
+int main ()
+{
+int i,n,a[100],count=0;
+printf("enter size:");
+scanf("%d",&n);
+printf("enter elements\n");
+for(i=0;i<n;i++){
+scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++){
+ if(a[i]==2){
+continue;
+}       
+else if(a[i]%2==0){
+count++;
+}
+}
+if(count>2){    
+}
+printf("total composite number are: %d",count);
+}
+ int arr[] = {-160, -160, -180, -270, -160, -230, -210, 1-90, 0};
+ int n;
+ n = sizeof(arr) / sizeof(arr[0]);
+ 
+ printArray(arr, n);
+ printf("Count of Negative elements = %d\n",
+  countNegativeNumbers(arr, n));
+ 
+ return 0;
+}

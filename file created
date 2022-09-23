@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+   FILE *fp;
+ 
+ fp = fopen("d:\filesc\t1.txt", "w+");
+   fprintf(fp, "This is testing for fprintf...\n");
+   printf("file created");
+
+
+}
